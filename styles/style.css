@@ -1,31 +1,44 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
 }
-
-
-
-
-
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+  /* startje */
+  --color-text: #111;
+  --color-background: #eee;
 }
-
-
-
-
 
 /****************/
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+body,
+ul {
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
 
+nav ul {
+  list-style-type: none;
+  padding: 5px;
+  background-color: beige;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav li a {
+  text-decoration: none;
+}
+
+.Logo {
+  width: 10%;
+}
