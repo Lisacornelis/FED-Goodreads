@@ -35,20 +35,16 @@ responsive
 
 Ik ga de site Goodreads namaken:
 https://www.goodreads.com/
-Deze site is erg verouderd, dus ik heb een kleine redesign met dezelfde onderdelen van de huidige site gemaakt, om de vormgeving iets moderner maken.
-Redesign home pagina:
-<img src="Redesign_Goodreads.png">
-Redesign detail pagina:
 
 #### Screenshot(s) van de eerste pagina (small screen):
 
-hier de naam van de pagina  
- <img src="readme-images/FireShot Capture 002 - Goodreads - Meet your next favorite book - www.goodreads.com.pdf" width="375px" alt="Screenshot van de homepagina die wordt nagemaakt.">
+Homepage Goodreads
+<img src="readme-images/Screenshot homepagina.pdf" width="375px" alt="Screenshot van de homepagina die wordt nagemaakt.">
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
 hier de naam van de pagina  
- <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ <img src="readme-images/Screenshot detailpaniga.png" width="375px" alt="Screenshot van de detailpagina die wordt nagemaakt.">
 
 </details>
 
