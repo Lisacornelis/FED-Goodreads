@@ -1,15 +1,19 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*,
-*::after,
-*::before {
-  box-sizing: border-box;
-}
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
+@font-face {
+  font-family: "NimbusRegular";
+  src: url(/font/nimbus-sans-l/NimbusSanL-Reg.otf);
+}
+@font-face {
+  font-family: "NimbusBold";
+  src: url(/font/nimbus-sans-l/NimbusSanL-Bol.otf);
+}
+
 :root {
   /* startje */
   --color-text: #111;
@@ -22,23 +26,201 @@
 
 body,
 ul {
-  background-color: white;
   margin: 0;
   padding: 0;
 }
-
-nav ul {
-  list-style-type: none;
-  padding: 5px;
-  background-color: beige;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+:root {
+  --beige: #f5f1ea;
+  --bruin: #75420e;
+  --donkerbruin: #553b08;
+  --grijs: #aaaaaa;
 }
-nav li a {
-  text-decoration: none;
+
+nav {
+  position: relative;
+  background-color: var(--beige);
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 
 .Logo {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+.Searchsvg {
+  width: 8%;
+  position: absolute;
+}
+.Accountsvg {
   width: 10%;
+  position: absolute;
+  right: 0px;
+}
+ul li {
+  font-family: "NimbusRegular";
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-top: 5%;
+}
+.Awards {
+  width: 100vw;
+}
+button {
+  margin-top: 5%;
+  font-size: 1em;
+  padding: 2%;
+  background-color: yellow;
+  border-style: none;
+}
+.Nominees {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#Listyle {
+  list-style: none;
+  color: rgb(0, 120, 0);
+}
+a {
+  text-decoration: none;
+  color: rgb(0, 120, 0);
+}
+#UlNominees {
+  margin-top: 5%;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 1.25em;
+  text-align: left;
+}
+/* .Collectie {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 15%;
+} */
+
+input[type="text"] {
+  padding: 0.6em;
+  font-size: 17px;
+  width: 70%;
+  margin: 0 auto;
+  display: block;
+}
+.bn46 {
+  margin: 5% auto;
+  display: block;
+  width: 150px;
+  height: 50px;
+}
+
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+}
+
+.slides {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 0.6em;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  scroll-snap-align: center;
+  transform: scale(1);
+
+  width: 200px;
+  height: 300px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slide-1 {
+  background-color: #fdc;
+}
+
+.slide-2 {
+  background-color: #bfd;
+}
+
+.slide-3 {
+  background-color: #cdf;
+}
+
+.slide-4 {
+  background-color: #dca;
+}
+
+.slide-5 {
+  background-color: #ffc;
+}
+
+h2 {
+  font-family: "NimbusRegular";
+  font-size: 1.1em;
+}
+h3 {
+  font-family: "NimbusBold";
+  margin-top: 2%;
+  margin: 0.3em;
+}
+h4 {
+  text-align: center;
+}
+.firstp {
+  font-family: "NimbusRegular";
+  margin-top: 0;
+  margin-left: 0.4em;
+}
+.secondp {
+  font-family: "NimbusRegular";
+  text-align: center;
+}
+.thirdp {
+  font-family: "NimbusRegular";
+  color: rebeccapurple;
+  margin: 0;
+}
+.UlGenres {
+  margin-bottom: 8%;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 2;
+  column-gap: 1.25em;
+  text-align: left;
+}
+.QuoteProfile {
+  position: relative;
+  width: 15%;
+
+  margin-top: 1%;
+  left: 43%;
+}
+.img-awardsfooter {
+  width: 100%;
 }
