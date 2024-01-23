@@ -1,0 +1,210 @@
+@font-face {
+  font-family: "NimbusRegular";
+  src: url(/font/nimbus-sans-l/NimbusSanL-Reg.otf);
+}
+@font-face {
+  font-family: "NimbusBold";
+  src: url(/font/nimbus-sans-l/NimbusSanL-Bol.otf);
+}
+
+:root {
+  /* startje */
+  --color-text: #111;
+  --color-background: #eee;
+}
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+body,
+ul {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+:root {
+  --beige: #f5f1ea;
+  --bruin: #75420e;
+  --donkerbruin: #553b08;
+  --grijs: #aaaaaa;
+}
+
+nav {
+  position: relative;
+  background-color: var(--beige);
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.Logo {
+  display: block;
+  margin: auto;
+  width: 40%;
+}
+.Searchsvg {
+  width: 8%;
+  position: absolute;
+  left: 0;
+}
+.Accountsvg {
+  width: 10%;
+  position: absolute;
+  right: 0px;
+}
+ul li {
+  font-family: "NimbusRegular";
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  padding-right: 4%;
+  padding-left: 4%;
+  padding-top: 5%;
+}
+.carousel {
+  margin: 0 auto;
+  overflow: hidden;
+  text-align: center;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.slides {
+  width: 100%;
+  display: flex;
+  overflow-x: scroll;
+  scrollbar-width: none;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+}
+
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides-item {
+  align-items: center;
+  border-radius: 0.6em;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  margin: 0 1rem;
+  position: relative;
+  scroll-snap-align: center;
+  transform: scale(1);
+
+  width: 200px;
+  height: 300px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+}
+
+.slide-1 {
+  background-color: #fdc;
+}
+
+.slide-2 {
+  background-color: #bfd;
+}
+
+.slide-3 {
+  background-color: #cdf;
+}
+
+.slide-4 {
+  background-color: #dca;
+}
+
+.slide-5 {
+  background-color: #ffc;
+}
+
+.AtlasCover {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 3%;
+}
+h2 {
+  text-align: center;
+  font-family: "NimbusBold";
+}
+h3 {
+  font-family: "NimbusBold";
+  text-align: center;
+}
+.Rating {
+  width: 100%;
+  margin-top: 3%;
+}
+.WTR {
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  background-color: green;
+  border-radius: 10px;
+  color: white;
+}
+.Kindle {
+  text-decoration: none;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  background-color: white;
+  border-radius: 10px;
+  border-style: solid;
+  border-color: green;
+}
+p {
+  font-family: "NimbusRegular";
+  text-align: left;
+  margin: 2%;
+}
+b {
+  font-family: "NimbusBold";
+  margin: 2%;
+}
+.SM {
+  margin: 5%;
+  color: green;
+}
+#Listyle {
+  list-style: none;
+  color: rgb(0, 120, 0);
+}
+#UlNominees {
+  margin-top: 5%;
+  -moz-column-count: 2;
+  -moz-column-gap: 20px;
+  -webkit-column-count: 4;
+  -webkit-column-gap: 20px;
+  column-count: 1;
+  column-gap: 1.25em;
+  text-align: left;
+}
+a {
+  text-decoration: underline;
+  color: black;
+  text-decoration-color: green;
+  text-underline-offset: 5px;
+}
+hr.solid {
+  border-top: 3px solid #bbb;
+  width: 85%;
+}
+.similar {
+  text-decoration: none;
+  padding-left: 1.3em;
+  padding-right: 1.3em;
+  padding-top: 0.6em;
+  padding-bottom: 0.6em;
+  background-color: white;
+  border-radius: 40px;
+  border-style: solid;
+  border-color: grey;
+}
