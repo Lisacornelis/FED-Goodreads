@@ -43,7 +43,7 @@ Homepage Goodreads
 
 #### Screenshot(s) van de tweede pagina (small screen):
 
-hier de naam van de pagina  
+Detailpagina  
  <img src="readme-images/Screenshot detailpaniga.png" width="375px" alt="Screenshot van de detailpagina die wordt nagemaakt.">
 
 </details>
@@ -57,26 +57,7 @@ hier de naam van de pagina
 
 Lijst met je bevindingen die in de test naar voren kwamen:
 
-</details>
-
-## Breakdownschets (week 1)
-
-<details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
-
-### de hele pagina:
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
-
-### dynamisch deel (bijv menu):
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-### wellicht nog een dynamisch deel (bijv filter):
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
-
-</details>
+- De site had erg veel errors.
 
 ## Voortgang 1 (week 2)
 
@@ -121,7 +102,9 @@ In de lessen hebben wij geen meetings gehouden met mede studenten, maar ik heb w
 
 Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
--
+- De site had erg veel errors, dat is nu niet het geval meer.
+- De site was niet te gebruiken met een screenreader.
+- De site was semantisch niet correct.
 
 </details>
 
@@ -145,19 +128,14 @@ Voor het afmaken van mijn opdracht voor de herkansing heb ik eerst al mijn conte
 
 ### Je uitkomst - karakteristiek screenshots:
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="screenshot van de homepagina">
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="screenshot van de detailpagina">
+<img src="readme-images/Screenshot homepagina.pdf" width="375px" alt="Screenshot van de homepagina die wordt nagemaakt.">
+ <img src="readme-images/Screenshot detailpaniga.png" width="375px" alt="Screenshot van de detailpagina die wordt nagemaakt.">
 
 ### Dit ging goed/Heb ik geleerd:
 
 Aangezien dit een vak is dat ik sinds het eerste jaar erg moeilijk heb gevonden, was deze opdracht niet alleen moeilijk oom te maken maar ook om mij er toe te zetten. Ik heb geprobeerd veel vragen te stellen en te oefenen met de extra opdrachten zodat ik mij zelfverzekerder voelde in de stof/taal. Alhoewel dit nog steeds niet het geval is ben ik wel tevreden met het eindresultaat. Ik heb erg veel dingen moeten uitzoeken omdat ik dit niet snapte en dit heeft mij veel extra tijd gekost, maar ik ben blij dat ik daar wel de tijd voor heb genomen.
 
-Ik ben blij met dat het mij is gelukt de detailpagina zo goed op het origineel te laten lijken.
-<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Screenshot van de al bestaande detailpagina">
-<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Screenshot van de al nagemaakte detailpagina">
-
-Ook ben ik erg blij met dat het mij is gelukt om de carousel werkende te krijgen en correct te maken.
-<img src="readme-images/dummy-plaatje.jpg" width="375px" alt="Screenshot van de code van de carousel">
+Ik ben blij met dat het mij is gelukt de detailpagina zo goed op het origineel te laten lijken. Ook ben ik erg blij met dat het mij is gelukt om de carousel werkende te krijgen en correct te maken.
 
 ### Dit was lastig/Is niet gelukt:
 

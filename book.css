@@ -61,6 +61,7 @@ ul li {
   padding-left: 4%;
   padding-top: 5%;
 }
+/*code van de carousel*/
 .carousel {
   margin: 0 auto;
   overflow: hidden;
@@ -120,7 +121,7 @@ ul li {
 .slide-5 {
   background-color: #ffc;
 }
-
+/*centreren van de hoofdafbeelding bovenaan*/
 .AtlasCover {
   display: block;
   margin-left: auto;
@@ -140,6 +141,7 @@ h3 {
   width: 100%;
   margin-top: 3%;
 }
+/*styling van de button want to read*/
 .WTR {
   padding-left: 1.3em;
   padding-right: 1.3em;
@@ -149,6 +151,7 @@ h3 {
   border-radius: 10px;
   color: white;
 }
+/*styling van kindle button*/
 .Kindle {
   text-decoration: none;
   padding-left: 1.3em;
@@ -173,10 +176,12 @@ b {
   margin: 5%;
   color: green;
 }
+/*styling van de genre lijst*/
 #Listyle {
   list-style: none;
   color: rgb(0, 120, 0);
 }
+/*styling van de genre lijst*/
 #UlNominees {
   margin-top: 5%;
   -moz-column-count: 2;
@@ -187,16 +192,19 @@ b {
   column-gap: 1.25em;
   text-align: left;
 }
+/*styling van de genre lijst*/
 a {
   text-decoration: underline;
   color: black;
   text-decoration-color: green;
   text-underline-offset: 5px;
 }
+/*Rechte lijnen onder mensen die aan het lezen zijn*/
 hr.solid {
   border-top: 3px solid #bbb;
   width: 85%;
 }
+/*similar button styling onder aan pagina*/
 .similar {
   text-decoration: none;
   padding-left: 1.3em;
