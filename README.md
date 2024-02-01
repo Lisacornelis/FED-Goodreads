@@ -242,6 +242,7 @@ Ik heb tijdens deze opdracht geleerd dat ik het erg prettig vind om doorgaand ti
 ### Stand van zaken
 
 Vandaag heb ik de WCAG checklist verder ingevuld en van alle onderdelen die ik voor de Read Me heb verzameld, een lopend verhaal gemaakt. Ook heb ik de code van de carousel aangepast op de Boek detail pagina, wat simpel te doen was omdat dit de zelfde stappen waren als die ik eerder had gedaan op de homepagina. Ik vond het wel fijn om die stappen even opnieuw te doen omdat dit mij hielp met het begrijpen en onthouden van wat ik had gedaan.
+Ook heb ik de code gecheckt in de validator op errors en ben ik met een screenreader door de linkjes heen gegaan. Ook heb ik de alttekst van de boekcovers aangepast zodat dit prettiger en sneller te begrijpen is.
 
 </details>
 
