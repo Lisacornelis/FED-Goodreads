@@ -163,9 +163,12 @@ Read me verslag:
 - Link naar volledig ingevulde checklist en de uitkomsten uitgebreider beschrijven
 - Dat wat is gebprobeerd vastleggen met screenshots en bevindingen
 - Wees specifieker over wat fout is / wat ik geprobeerd / aangepast
-  Classes aanpassen, er moeten veel minder classes in.
-  Een micro animatie is verplicht.
-  Linkjes maken van de onderdelen in de nav bar.
+
+Code:
+
+- Classes aanpassen, er moeten veel minder classes in.
+- Een micro animatie is verplicht.
+- Linkjes maken van de onderdelen in de nav bar.
 
 <details>
   <summary>Maandag 29 januari<sup>e</sup> Voortgang</summary>
@@ -243,6 +246,23 @@ Ik heb tijdens deze opdracht geleerd dat ik het erg prettig vind om doorgaand ti
 
 Vandaag heb ik de WCAG checklist verder ingevuld en van alle onderdelen die ik voor de Read Me heb verzameld, een lopend verhaal gemaakt. Ook heb ik de code van de carousel aangepast op de Boek detail pagina, wat simpel te doen was omdat dit de zelfde stappen waren als die ik eerder had gedaan op de homepagina. Ik vond het wel fijn om die stappen even opnieuw te doen omdat dit mij hielp met het begrijpen en onthouden van wat ik had gedaan.
 Ook heb ik de code gecheckt in de validator op errors en ben ik met een screenreader door de linkjes heen gegaan. Ook heb ik de alttekst van de boekcovers aangepast zodat dit prettiger en sneller te begrijpen is.
+
+</details>
+
+## Toegankelijkheidstest 3 (herkansing)
+
+<details>
+  <summary>Herkansing<sup>e</sup> Herkansing</summary>
+
+### Bevindingen
+
+Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+
+- De site had erg veel errors. > Dit heb ik opgelost en gecheckt met een validator.
+- De site liet te veel klikbare onderdelen zien en deze onderdelen zijn veel te klein om toegankelijk te zijn voor mensen die niet precies kunnen klikken. Ook staan ze te dicht op elkaar en dit maakt het scrollen lastig. > Dit heb ik opgelost door het homescherm te herontwerpen en alle belangrijke onderdelen klikbaar te maken en het overige weg te laten.
+- De homepagina van Goodreads bevat geen h1. Ook staan de heading elementen niet in een logische volgorde en mist er overal alt tekst.De homepagina van Goodreads bevat geen h1. Ook staan de heading elementen niet in een logische volgorde en mist er overal alt tekst. > Ik heb een h1 toegevoegd en de heading elementen in een logische volgorde opgebouwd.
+- De images hebben geen alt tekst, ook niet wanneer hier tekst in staat. > Ik heb alle afbeeldingen een alttekst gegeven die makkelijk en snel te begrijpen is. Ik heb gecheckt met een screenreader of de site nu wel (makkelijker) te gebruiken was met een screenreader.
+</details>
 
 </details>
 
