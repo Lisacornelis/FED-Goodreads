@@ -30,27 +30,33 @@ ul {
   --grijs: #aaaaaa;
 }
 
+/* navigatie */
 nav {
   position: relative;
   background-color: var(--beige);
-  padding-top: 2%;
-  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
 }
-
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+nav ul:last-of-type {
+  padding-bottom: 1rem;
+}
 .Logo {
   display: block;
-  margin: auto;
-  width: 40%;
+  width: 55vw;
+  position: relative;
 }
 .Searchsvg {
-  width: 8%;
-  position: absolute;
-  left: 0;
+  width: 10vw;
+  position: relative;
 }
 .Accountsvg {
-  width: 10%;
-  position: absolute;
-  right: 0px;
+  width: 10vw;
+  position: relative;
 }
 ul li {
   font-family: "NimbusRegular";
@@ -62,15 +68,7 @@ ul li {
   padding-top: 5%;
 }
 /*code van de carousel*/
-.carousel {
-  margin: 0 auto;
-  overflow: hidden;
-  text-align: center;
-  margin-top: 7%;
-  margin-bottom: 7%;
-}
-
-.slides {
+.carousel > ul {
   width: 100%;
   display: flex;
   overflow-x: scroll;
@@ -79,11 +77,11 @@ ul li {
   scroll-behavior: smooth;
 }
 
-.slides::-webkit-scrollbar {
+.carousel ul::-webkit-scrollbar {
   display: none;
 }
 
-.slides-item {
+.carousel ul li a img {
   align-items: center;
   border-radius: 0.6em;
   display: flex;
@@ -100,26 +98,6 @@ ul li {
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
   -webkit-overflow-scrolling: touch;
-}
-
-.slide-1 {
-  background-color: #fdc;
-}
-
-.slide-2 {
-  background-color: #bfd;
-}
-
-.slide-3 {
-  background-color: #cdf;
-}
-
-.slide-4 {
-  background-color: #dca;
-}
-
-.slide-5 {
-  background-color: #ffc;
 }
 /*centreren van de hoofdafbeelding bovenaan*/
 .AtlasCover {
@@ -140,6 +118,36 @@ h3 {
 .Rating {
   width: 100%;
   margin-top: 3%;
+}
+.starcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.star {
+  width: 2rem;
+  height: 2rem;
+  /* dit is de vorm van de ster */
+  clip-path: polygon(
+    50% 0%,
+    61% 35%,
+    98% 35%,
+    68% 57%,
+    79% 91%,
+    50% 70%,
+    21% 91%,
+    32% 57%,
+    2% 35%,
+    39% 35%
+  );
+  background-color: gray;
+  transition: 1s ease-in-out;
+  display: inline-block;
+  cursor: pointer;
+}
+/* kies een andere kleur geel, donkerder */
+.star.active {
+  background-color: yellow;
 }
 /*styling van de button want to read*/
 .WTR {

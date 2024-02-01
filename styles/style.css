@@ -39,37 +39,42 @@ ul {
 nav {
   position: relative;
   background-color: var(--beige);
-  padding-top: 2%;
-  padding-bottom: 2%;
+  display: flex;
+  flex-direction: column;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: baseline;
+}
+nav ul:last-of-type {
+  padding-bottom: 1rem;
 }
 
 .Logo {
   display: block;
-  margin: auto;
-  width: 40%;
+  width: 55vw;
+  position: relative;
 }
 .Searchsvg {
-  width: 8%;
-  position: absolute;
+  width: 10vw;
+  position: relative;
 }
 .Accountsvg {
-  width: 10%;
-  position: absolute;
-  right: 0px;
+  width: 10vw;
+  position: relative;
 }
 ul li {
   font-family: "NimbusRegular";
   display: inline-block;
   text-decoration: none;
   text-align: center;
-  padding-right: 4%;
-  padding-left: 4%;
-  padding-top: 5%;
+  padding: 5% 4% 2% 4%;
 }
 .Awards {
   width: 100vw;
 }
-button {
+.Nominees > a {
   margin-top: 5%;
   font-size: 1em;
   padding: 2%;
@@ -80,15 +85,12 @@ button {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-#Listyle {
-  list-style: none;
-  color: rgb(0, 120, 0);
+  font-family: "NimbusRegular";
 }
 a {
   text-decoration: none;
-  color: rgb(0, 120, 0);
 }
+
 #UlNominees {
   margin-top: 5%;
   -moz-column-count: 2;
@@ -120,13 +122,13 @@ input[type="text"] {
   height: 50px;
 }
 
-.carousel {
+h2 > section {
   margin: 0 auto;
   overflow: hidden;
   text-align: center;
 }
 
-.slides {
+.carousel > ul {
   width: 100%;
   display: flex;
   overflow-x: scroll;
@@ -135,11 +137,11 @@ input[type="text"] {
   scroll-behavior: smooth;
 }
 
-.slides::-webkit-scrollbar {
+.carousel ul::-webkit-scrollbar {
   display: none;
 }
 
-.slides-item {
+.carousel ul li a img {
   align-items: center;
   border-radius: 0.6em;
   display: flex;
@@ -158,26 +160,6 @@ input[type="text"] {
   -webkit-overflow-scrolling: touch;
 }
 
-.slide-1 {
-  background-color: #fdc;
-}
-
-.slide-2 {
-  background-color: #bfd;
-}
-
-.slide-3 {
-  background-color: #cdf;
-}
-
-.slide-4 {
-  background-color: #dca;
-}
-
-.slide-5 {
-  background-color: #ffc;
-}
-
 h2 {
   font-family: "NimbusRegular";
   font-size: 1.1em;
@@ -190,21 +172,21 @@ h3 {
 h4 {
   text-align: center;
 }
-.firstp {
+.lastsection p:first-of-type {
   font-family: "NimbusRegular";
   margin-top: 0;
   margin-left: 0.4em;
 }
-.secondp {
+.lastsection p:nth-of-type(2) {
   font-family: "NimbusRegular";
   text-align: center;
 }
-.thirdp {
+.lastsection p:last-of-type {
   font-family: "NimbusRegular";
   color: rebeccapurple;
   margin: 0;
 }
-.UlGenres {
+.lastsection ul {
   margin-bottom: 8%;
   -moz-column-count: 2;
   -moz-column-gap: 20px;
@@ -213,6 +195,10 @@ h4 {
   column-count: 2;
   column-gap: 1.25em;
   text-align: left;
+}
+.lastsection ul a {
+  color: green;
+  background-color: transparent;
 }
 .QuoteProfile {
   position: relative;
@@ -223,4 +209,23 @@ h4 {
 }
 .img-awardsfooter {
   width: 100%;
+}
+section:last-of-type {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer a {
+  font-size: 1em;
+  padding: 2%;
+  background-color: yellow;
+  border-style: none;
+  width: max-content;
+  margin-top: 1rem;
+  transition: 0.25s ease-in;
+}
+section:last-of-type a:hover {
+  font-size: 1.15em;
+  color: #111;
+  background-color: orange;
 }

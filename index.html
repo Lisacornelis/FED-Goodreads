@@ -9,36 +9,60 @@
   </head>
   <body>
     <header>
+      <h1 aria-label="Welkom op de Goodreads pagina"></h1>
       <nav>
-        <img class="Accountsvg" src="./images/Account.png" alt="Account" />
-        <img class="Searchsvg" src="./images/Searchsvg.svg" alt="zoeken" />
-        <a>
-          <img class="Logo" src="./images/Goodreads_logo.svg.png" alt="logo" />
-          <h1 aria-label="Welkom op de Goodreads pagina"></h1>
-        </a>
         <ul>
-          <li>Home</li>
-          <li>My Books</li>
-          <li>Browse</li>
-          <li>Community</li>
+          <li>
+            <a href="/">
+              <img
+                class="Searchsvg"
+                src="./images/Searchsvg.svg"
+                alt="zoeken"
+              />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img
+                class="Logo"
+                src="./images/Goodreads_logo.svg.png"
+                alt="logo"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <img
+                class="Accountsvg"
+                src="./images/Account.png"
+                alt="Account"
+              />
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">My Books</a></li>
+          <li><a href="/">Browse</a></li>
+          <li><a href="/">Community</a></li>
         </ul>
       </nav>
     </header>
     <section class="Nominees">
       <img class="Awards" src="./images/ChoiceAwards.webp" alt="ChoiceAwards" />
-      <button>See the Nominees</button>
+      <a href="/"> The Nominees</a>
       <ul id="UlNominees">
-        <li id="Listyle"><a href="#">Best Fiction</a></li>
-        <li id="Listyle"><a href="#">Best Romance</a></li>
-        <li id="Listyle"><a href="#">Best Science Fiction</a></li>
-        <li id="Listyle"><a href="#">Best Fantasy</a></li>
-        <li id="Listyle"><a href="#">Best Mystery & Thriller</a></li>
-        <li id="Listyle"><a href="#">Best Nonfiction</a></li>
-        <li id="Listyle"><a href="#">Best Young adult fiction</a></li>
-        <li id="Listyle"><a href="#">Best Humor</a></li>
+        <li><a href="#">Best Fiction</a></li>
+        <li><a href="#">Best Romance</a></li>
+        <li><a href="#">Best Science Fiction</a></li>
+        <li><a href="#">Best Fantasy</a></li>
+        <li><a href="#">Best Mystery & Thriller</a></li>
+        <li><a href="#">Best Nonfiction</a></li>
+        <li><a href="#">Best Young adult fiction</a></li>
+        <li><a href="#">Best Humor</a></li>
       </ul>
     </section>
-    <section class="Collectie">
+    <section>
       <form>
         <input type="text" placeholder="Search.." />
       </form>
@@ -50,175 +74,193 @@
       /></a>
       <h2>MOST READ THIS WEEK</h2>
       <section class="carousel" aria-label="carousel">
-        <section class="slides">
-          <a href="#">
-            <img
-              class="slides-item slide-1"
-              id="slide-1"
-              src="./images/GoneGirl.jpeg"
-              alt="Cover van het boek Gone Girl geschreven door Gillian Flynn"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-2"
-              id="slide-2"
-              src="./images/HelloBeautiful.jpeg"
-              alt="Cover van het boek Hello Beautiful geschreven door Ann Napolitano"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-3"
-              id="slide-3"
-              src="./images/Holly.jpeg"
-              alt="Cover van het boek Holly geschreven door Stephen King"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-4"
-              id="slide-4"
-              src="./images/LieWithMe.jpeg"
-              alt="Cover van het boek Lie With me geschreven door Philippe Besson"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-5"
-              id="slide-5"
-              src="./images/MaryJane.jpeg"
-              alt="Cover van het boek Mary Jane geschreven door Jessica Anya Blau"
-            />
-          </a>
-        </section>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-1"
+                src="./images/GoneGirl.jpeg"
+                alt="Cover van het boek Gone Girl geschreven door Gillian Flynn"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-2"
+                src="./images/HelloBeautiful.jpeg"
+                alt="Cover van het boek Hello Beautiful geschreven door Ann Napolitano"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-3"
+                src="./images/Holly.jpeg"
+                alt="Cover van het boek Holly geschreven door Stephen King"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-4"
+                src="./images/LieWithMe.jpeg"
+                alt="Cover van het boek Lie With me geschreven door Philippe Besson"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-5"
+                src="./images/MaryJane.jpeg"
+                alt="Cover van het boek Mary Jane geschreven door Jessica Anya Blau"
+              />
+            </a>
+          </li>
+        </ul>
       </section>
       <h2>NEW RELEASES THIS MONTH</h2>
       <section class="carousel" aria-label="carousel">
-        <section class="slides">
-          <a href="#">
-            <img
-              class="slides-item slide-1"
-              id="slide-1"
-              src="./images/ALitteLife.jpeg"
-              alt="Cover van het boek A Little Life geschreven door Hanya Yanaghara"
-            />
-          </a>
-          <a href="./book.html">
-            <img
-              class="slides-item slide-2"
-              id="slide-2"
-              src="./images/Atlas.jpeg"
-              alt="Cover van het boek The Atlas Six geschreven door Olivie Blake"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-3"
-              id="slide-3"
-              src="./images/Almond.jpeg"
-              alt="Cover van het boek Almond geschreven door Sohn Won-pyung"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-4"
-              id="slide-4"
-              src="./images/AManCalledOve.jpeg"
-              alt="Cover van het boek A Man Called Ove geschreven door Fredrik Backman"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-5"
-              id="slide-5"
-              src="./images/Ariadne.jpeg"
-              alt="Cover van het boek Ariadne geschreven door Jennifer Saint"
-            />
-          </a>
-        </section>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                src="./images/ALitteLife.jpeg"
+                alt="Cover van het boek A Little Life geschreven door Hanya Yanaghara"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="./book.html">
+              <img
+                src="./images/Atlas.jpeg"
+                alt="Cover van het boek The Atlas Six geschreven door Olivie Blake"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./images/Almond.jpeg"
+                alt="Cover van het boek Almond geschreven door Sohn Won-pyung"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./images/AManCalledOve.jpeg"
+                alt="Cover van het boek A Man Called Ove geschreven door Fredrik Backman"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                src="./images/Ariadne.jpeg"
+                alt="Cover van het boek Ariadne geschreven door Jennifer Saint"
+              />
+            </a>
+          </li>
+        </ul>
       </section>
       <h2>RECOMMENDED FOR YOU</h2>
       <section class="carousel" aria-label="carousel">
-        <section class="slides">
-          <a href="#">
-            <img
-              class="slides-item slide-1"
-              id="slide-1"
-              src="./images/BoyParts.jpeg"
-              alt="Cover van het boek Boy Parts geschreven door Eliza Clark"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-2"
-              id="slide-2"
-              src="./images/Carmilla.jpeg"
-              alt="Cover van het boek Carmilla geschreven door Sheridan Le Fanu"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-3"
-              id="slide-3"
-              src="./images/Circe.jpeg"
-              alt="Cover van het boek Circe geschreven door Madelain Miller"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-4"
-              id="slide-4"
-              src="./images/Elektra.jpeg"
-              alt="Cover van het boek Elektra geschreven door Jennifer Saint"
-            />
-          </a>
-          <a href="#">
-            <img
-              class="slides-item slide-5"
-              id="slide-5"
-              src="./images/Heaven.jpeg"
-              alt="Cover van het boek Heaven geschreven door Mieko Kawakami"
-            />
-          </a>
-        </section>
+        <ul>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-1"
+                src="./images/BoyParts.jpeg"
+                alt="Cover van het boek Boy Parts geschreven door Eliza Clark"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-2"
+                src="./images/Carmilla.jpeg"
+                alt="Cover van het boek Carmilla geschreven door Sheridan Le Fanu"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-3"
+                src="./images/Circe.jpeg"
+                alt="Cover van het boek Circe geschreven door Madelain Miller"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-4"
+                src="./images/Elektra.jpeg"
+                alt="Cover van het boek Elektra geschreven door Jennifer Saint"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <img
+                class="slides-item slide-5"
+                src="./images/Heaven.jpeg"
+                alt="Cover van het boek Heaven geschreven door Mieko Kawakami"
+              />
+            </a>
+          </li>
+        </ul>
       </section>
     </section>
-    <section class="LastSection">
+    <section class="lastsection">
       <h3>Best Books of the 20th century</h3>
-      <p class="firstp">Select by catagory</p>
-      <ul class="UlGenres">
-        <li id="Listyle">Best Fiction</li>
-        <li id="Listyle">Best Romance</li>
-        <li id="Listyle">Best Science Fiction</li>
-        <li id="Listyle">Best Fantasy</li>
-        <li id="Listyle">Best Mystery & Thriller</li>
-        <li id="Listyle">Best Nonfiction</li>
+      <p>Select by catagory</p>
+      <ul>
+        <li><a href="/">Best Fiction</a></li>
+        <li><a href="/">Best Romance</a></li>
+        <li><a href="/">Best Science Fiction</a></li>
+        <li><a href="/">Best Fantasy</a></li>
+        <li><a href="/">Best Mystery & Thriller</a></li>
+        <li><a href="/">Best Nonfiction</a></li>
       </ul>
       <h3>GENRES</h3>
-      <ul class="UlGenres">
-        <li id="Listyle">Best Fiction</li>
-        <li id="Listyle">Best Romance</li>
-        <li id="Listyle">Best Science Fiction</li>
-        <li id="Listyle">Best Fantasy</li>
-        <li id="Listyle">Best Mystery & Thriller</li>
-        <li id="Listyle">Best Nonfiction</li>
-        <li id="Listyle">Best Mystery & Thriller</li>
-        <li id="Listyle">Best Nonfiction</li>
-        <li id="Listyle">Best Mystery & Thriller</li>
-        <li id="Listyle">Best Nonfiction</li>
+      <ul>
+        <li><a href="/">Best Fiction</a></li>
+        <li><a href="/">Best Romance</a></li>
+        <li><a href="/">Best Science Fiction</a></li>
+        <li><a href="/">Best Fantasy</a></li>
+        <li><a href="/">Best Mystery & Thriller</a></li>
+        <li><a href="/">Best Nonfiction</a></li>
+        <li><a href="/">Best Mystery & Thriller</a></li>
+        <li><a href="/">Best Nonfiction</a></li>
+        <li><a href="/">Best Mystery & Thriller</a></li>
+        <li><a href="/">Best Nonfiction</a></li>
       </ul>
       <h3>QUOTE OF THE WEEK</h3>
-
-      <quote>
-        "I have hated words and I have loved them, and I hope I have made them
-        right."
-      </quote>
-      <p class="secondp">Markus Zusak, The Book Thief</p>
-      <img class="QuoteProfile" src="./images/Markus.jpeg" />
+      <blockquote>
+        <q>
+          I have hated words and I have loved them, and I hope I have made them
+          right.
+        </q>
+      </blockquote>
+      <p>Markus Zusak, The Book Thief</p>
+      <img class="QuoteProfile" src="./images/Markus.jpeg" alt="Markus Zusak" />
+    </section>
+    <!-- Hieronder is een class van gemaakt omdat "last of type" niet werkte, dit zorgde ervoor dat de boeken in de laatste carousel ook een gele streep kreeg. -->
+    <section class="footer">
       <h3>GOODREADS CHOICE AWARDS: THE BEST BOOKS 2023</h3>
-      <img class="img-awardsfooter" src="./images/ChoiceAwards.webp" />
-      <p class="thirdp">See the Nominees</p>
+      <img
+        class="img-awardsfooter"
+        src="./images/ChoiceAwards.webp"
+        alt="Goodreads Choice Awards"
+      />
+      <a href="/">See the Nominees</a>
     </section>
   </body>
 </html>

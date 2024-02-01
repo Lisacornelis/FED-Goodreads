@@ -9,17 +9,40 @@
   <body>
     <header>
       <nav>
-        <img class="Accountsvg" src="./images/Account.png" alt="Account" />
-        <img class="Searchsvg" src="./images/Searchsvg.svg" alt="zoeken" />
-        <a href="./index.html">
-          <img class="Logo" src="./images/Goodreads_logo.svg.png" alt="logo" />
-          <h1 aria-label="Welkom op de details pagina"></h1>
-        </a>
         <ul>
-          <li>Home</li>
-          <li>My Books</li>
-          <li>Browse</li>
-          <li>Community</li>
+          <li>
+            <a href="/">
+              <img
+                class="Searchsvg"
+                src="./images/Searchsvg.svg"
+                alt="zoeken"
+              />
+            </a>
+          </li>
+          <li>
+            <a>
+              <img
+                class="Logo"
+                src="./images/Goodreads_logo.svg.png"
+                alt="logo"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="/">
+              <img
+                class="Accountsvg"
+                src="./images/Account.png"
+                alt="Account"
+              />
+            </a>
+          </li>
+        </ul>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">My Books</a></li>
+          <li><a href="#">Browse</a></li>
+          <li><a href="#">Community</a></li>
         </ul>
       </nav>
     </header>
@@ -35,11 +58,13 @@
         src="./images/rating.png"
         alt="4.61 sterren van de 5"
       />
-      <img
-        class="Rating"
-        src="./images/ratethis.png"
-        alt="beoordeel dit boek"
-      />
+      <section class="starcontainer">
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+        <div class="star"></div>
+      </section>
       <h4>Rate this book</h4>
       <b
         >Enter the brutal and elite world of a war college for dragon riders
@@ -55,13 +80,13 @@
       <a class="SM">see more</a>
       <h4>Genres</h4>
       <ul id="UlNominees">
-        <li id="Listyle"><a href="#">Fantasy</a></li>
-        <li id="Listyle"><a href="#">Romance</a></li>
-        <li id="Listyle"><a href="#">Dragons</a></li>
-        <li id="Listyle"><a href="#">Fiction</a></li>
-        <li id="Listyle"><a href="#">Audiobook</a></li>
-        <li id="Listyle"><a href="#">Fantasy Romance</a></li>
-        <li id="Listyle"><a href="#">New Adult</a></li>
+        <li><a href="#">Fantasy</a></li>
+        <li><a href="#">Romance</a></li>
+        <li><a href="#">Dragons</a></li>
+        <li><a href="#">Fiction</a></li>
+        <li><a href="#">Audiobook</a></li>
+        <li><a href="#">Fantasy Romance</a></li>
+        <li><a href="#">New Adult</a></li>
       </ul>
       <h3>Book details & editions</h3>
       <hr class="solid" />
@@ -90,50 +115,52 @@
       <hr class="solid" />
       <h2>Readers also enjoyed</h2>
     </section>
+    <!-- hetzelfe maken als homepagina -->
     <section class="carousel" aria-label="carousel">
-      <section class="slides">
-        <a href="#">
-          <img
-            class="slides-item slide-1"
-            id="slide-1"
-            src="./images/ALitteLife.jpeg"
-            alt="Cover van het boek A Little Life geschreven door Hanya Yanaghara"
-          />
-        </a>
-        <a href="./book.html">
-          <img
-            class="slides-item slide-2"
-            id="slide-2"
-            src="./images/Carmilla.jpeg"
-            alt="Cover van het boek Carmilla geschreven door Sheridan Le Fanu"
-          />
-        </a>
-        <a href="#">
-          <img
-            class="slides-item slide-3"
-            id="slide-3"
-            src="./images/Almond.jpeg"
-            alt="Cover van het boek Almond geschreven door Sohn Won-pyung"
-          />
-        </a>
-        <a href="#">
-          <img
-            class="slides-item slide-4"
-            id="slide-4"
-            src="./images/AManCalledOve.jpeg"
-            alt="Cover van het boek A Man Called Ove geschreven door Fredrik Backman"
-          />
-        </a>
-        <a href="#">
-          <img
-            class="slides-item slide-5"
-            id="slide-5"
-            src="./images/Ariadne.jpeg"
-            alt="Cover van het boek Ariadne geschreven door Jennifer Saint"
-          />
-        </a>
-      </section>
+      <ul>
+        <li>
+          <a href="#">
+            <img
+              src="./images/ALitteLife.jpeg"
+              alt="Cover van het boek A Little Life geschreven door Hanya Yanaghara"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="./book.html">
+            <img
+              src="./images/Atlas.jpeg"
+              alt="Cover van het boek The Atlas Six geschreven door Olivie Blake"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="./images/Almond.jpeg"
+              alt="Cover van het boek Almond geschreven door Sohn Won-pyung"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="./images/AManCalledOve.jpeg"
+              alt="Cover van het boek A Man Called Ove geschreven door Fredrik Backman"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#">
+            <img
+              src="./images/Ariadne.jpeg"
+              alt="Cover van het boek Ariadne geschreven door Jennifer Saint"
+            />
+          </a>
+        </li>
+      </ul>
     </section>
     <a class="similar">All similar books</a>
+    <script defer src="script.js"></script>
   </body>
 </html>
